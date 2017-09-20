@@ -1,0 +1,18 @@
+{
+  "functions": {
+    "services-dev-hello": {
+      "version": 1,
+      "config": {
+        "key": "services-dev-hello",
+        "serviceName": "services",
+        "servicePath": "/Users/andika/Desktop/test/services",
+        "region": "us-east-1",
+        "stage": "dev",
+        "functionName": "hello",
+        "handler": "handler.hello",
+        "runtime": "nodejs6.10",
+        "environment": {}
+      }
+    }
+  }
+}

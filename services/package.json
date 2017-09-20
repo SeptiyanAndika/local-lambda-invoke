@@ -1,0 +1,16 @@
+{
+  "name": "services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "simulate-lambda": "sls simulate lambda -p 4000 ",
+    "simulate-gateway": " sls simulate apigateway -p 5000 --lambda-port 4000 ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-plugin-simulate": "0.0.17"
+  }
+}
