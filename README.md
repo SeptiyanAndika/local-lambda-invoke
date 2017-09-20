@@ -19,8 +19,12 @@ Inside both directories `services` and `manager`, install the dependencies:
 
 Inside the directory `services`, execute the following command:
 
-`npm run simulate-lambda`
-`npm run simulate-gateway (new terminal/ new tab)`
+```
+npm run simulate-lambda
+npm run simulate-gateway (new terminal/ new tab)
+```
 
 Inside the directory `manager`, execute the following command:
-`npm run handler-invoke`
+```
+npm run handler-invoke
+```
